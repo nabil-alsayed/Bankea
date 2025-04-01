@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "username": "john",
+      "password": "password_1",
+      "email": "john.doe@example.com",
+      "role": "CLIENT"
+    },
+    {
+      "id": "user2",
+      "username": "jane",
+      "password": "password_2",
+      "email": "jane.smith@example.com",
+      "role": "CLIENT"
+    },
+    {
+      "id": "cs1",
+      "username": "cs_1",
+      "password": "password_3",
+      "email": "cs_1@example.com",
+      "role": "CUSTOMER_SERVICE"
+    },
+    {
+      "id": "cr1",
+      "username": "cr_1",
+      "password": "password_4",
+      "email": "cr_1@example.com",
+      "role": "CREDIT"
+    },
+    {
+      "id": "user3",
+      "username": "admin",
+      "password": "password_5",
+      "email": "admin@example.com",
+      "role": "ADMIN"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "account1",
+      "accountNumber": "123456789",
+      "accountType": "CHECKING",
+      "balance": 5000.00,
+      "ownerId": "user1"
+    },
+    {
+      "id": "account2",
+      "accountNumber": "987654321",
+      "accountType": "SAVINGS",
+      "balance": 10000.00,
+      "ownerId": "user2"
+    }
+  ]
+}
